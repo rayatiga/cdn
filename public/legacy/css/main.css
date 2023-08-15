@@ -8,10 +8,15 @@
   --gray: #787878;
   --blue: #0000ff;
   --box-width: 46em;
+  --white: #ffffff;
   --black: #000000;
   --box-padding: 1em;
   --font-size: 0.875em;
   --font-family: 'JetBrains Mono', monospace;
+}
+::selection {
+  color: var(--white);
+  background-color: var(--blue);
 }
 body {
   display: flex;
@@ -61,8 +66,15 @@ div.form main form textarea {
 div.form main form label {
   margin-right: 1em;
 }
-div.form main form label[for='other'] {
-  margin-right: 0;
+div.form main form input#name,
+div.form main form input#subject {
+  margin-bottom: 1em;
+}
+div.form main form input#name,
+div.form main form input#email,
+div.form main form input#subject {
+  margin-top: 0.25em;
+  width: 100%;
 }
 div.form main form input[type='checkbox'] {
   margin-top: 1em;
