@@ -127,3 +127,32 @@ div.container footer button:active {
     display: none;
   }
 }
+
+.template {
+  top: 25em;
+  opacity: 0;
+  scale: 0.95;
+  padding: 2em 3em;
+  position: absolute;
+  text-align: center;
+  border: 0.25em solid red;
+  background-color: #fbfbfb;
+  box-shadow: 0 0 100em #00000055;
+  animation: showUp 500ms ease-in-out 1s forwards;
+}
+.template span {
+  color: yellow;
+  padding: 0.25em;
+  font-weight: 600;
+  background-color: darkred;
+}
+@keyframes showUp {
+  from {
+    opacity: 0;
+    scale: 0.95;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
