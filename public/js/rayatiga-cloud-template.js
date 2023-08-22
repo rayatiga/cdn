@@ -5,13 +5,13 @@ if (nav) {
   let path = window.location.pathname
   nav.outerHTML = `<nav class="navbar navbar-expand-lg bg-body border-bottom fixed-top">
                     <div class="container py-2">
-                      <a class="navbar-brand fw-bold" href="/index.html">Rayatiga Cloud</a>
+                      <a class="navbar-brand fw-bold" href="/">Rayatiga Cloud</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
-                          <li class="nav-item"><a class="nav-link${path == '/.index.html' ? (state = active) : (state = '')}"${path == '/.index.html' ? (state = aria) : (state = '')} href="/index.html">Home</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/' ? (state = active) : (state = '')}"${path == '/' ? (state = aria) : (state = '')} href="/">Home</a></li>
                           <li class="nav-item"><a class="nav-link${path == '/about.html' ? (state = active) : (state = '')}"${path == '/about.html' ? (state = aria) : (state = '')} href="/about.html">About</a></li>
                           <li class="nav-item"><a class="nav-link${path == '/pricing.html' ? (state = active) : (state = '')}"${path == '/pricing.html' ? (state = aria) : (state = '')} href="/pricing.html">Pricing</a></li>
                           <li class="nav-item d-lg-none"><a class="nav-link${path == '/contact.html' ? (state = active) : (state = '')}"${path == '/contact.html' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>

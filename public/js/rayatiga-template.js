@@ -5,13 +5,13 @@ if (nav) {
   let path = window.location.pathname
   nav.outerHTML = `<nav class="navbar navbar-expand-lg bg-body border-bottom fixed-top">
                     <div class="container py-2">
-                      <a class="navbar-brand fw-bold" href="/index.html">Rayatiga</a>
+                      <a class="navbar-brand fw-bold" href="/">Rayatiga</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
-                          <li class="nav-item"><a class="nav-link${path == '/index.html' ? (state = active) : (state = '')}"${path == '/index.html' ? (state = aria) : (state = '')} href="/index.html">Home</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/' ? (state = active) : (state = '')}"${path == '/' ? (state = aria) : (state = '')} href="/">Home</a></li>
                           <li class="nav-item"><a class="nav-link${path == '/about.html' ? (state = active) : (state = '')}"${path == '/about.html' ? (state = aria) : (state = '')} href="/about.html">About</a></li>
                           <li class="nav-item"><a class="nav-link${path == '/career.html' ? (state = active) : (state = '')}"${path == '/career.html' ? (state = aria) : (state = '')} href="/career.html">Career</a></li>
                           <li class="nav-item"><a class="nav-link${path == '/service.html' ? (state = active) : (state = '')}"${path == '/service.html' ? (state = aria) : (state = '')} href="/service.html">Service</a></li>
@@ -35,7 +35,7 @@ let checkoutContent = document.getElementById('checkoutContent')
 if (checkoutContent) {
   checkoutContent.innerHTML = `<nav class="navbar navbar-expand-lg bg-body border-bottom fixed-top">
                                 <div class="container justify-content-center">
-                                  <a class="navbar-brand fw-bold m-0" href="/index.html">Rayatiga</a>
+                                  <a class="navbar-brand fw-bold m-0" href="/">Rayatiga</a>
                                 </div>
                               </nav>
                               <main>
