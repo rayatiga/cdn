@@ -1,0 +1,8 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Mono';
+  src: url('/font/roboto-mono.ttf');
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+}
