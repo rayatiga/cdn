@@ -12,12 +12,12 @@ if (nav) {
                       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                           <li class="nav-item"><a class="nav-link${path == '/' ? (state = active) : (state = '')}"${path == '/' ? (state = aria) : (state = '')} href="/">Home</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/about.html' ? (state = active) : (state = '')}"${path == '/about.html' ? (state = aria) : (state = '')} href="/about.html">About</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/career.html' ? (state = active) : (state = '')}"${path == '/career.html' ? (state = aria) : (state = '')} href="/career.html">Career</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/service.html' ? (state = active) : (state = '')}"${path == '/service.html' ? (state = aria) : (state = '')} href="/service.html">Service</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/project.html' ? (state = active) : (state = '')}"${path == '/project.html' ? (state = aria) : (state = '')} href="/project.html">Project</a></li>
-                          <li class="nav-item d-lg-none"><a class="nav-link${path == '/contact.html' ? (state = active) : (state = '')}"${path == '/contact.html' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
-                          <li class="nav-item d-none d-lg-block"><a class="btn btn-dark border ms-2${path == '/contact.html' ? (state = active) : (state = '')}"${path == '/contact.html' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/about' ? (state = active) : (state = '')}"${path == '/about' ? (state = aria) : (state = '')} href="/about.html">About</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/career' ? (state = active) : (state = '')}"${path == '/career' ? (state = aria) : (state = '')} href="/career.html">Career</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/service' ? (state = active) : (state = '')}"${path == '/service' ? (state = aria) : (state = '')} href="/service.html">Service</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/project' ? (state = active) : (state = '')}"${path == '/project' ? (state = aria) : (state = '')} href="/project.html">Project</a></li>
+                          <li class="nav-item d-lg-none"><a class="nav-link${path == '/contact' ? (state = active) : (state = '')}"${path == '/contact' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
+                          <li class="nav-item d-none d-lg-block"><a class="btn btn-dark border ms-2${path == '/contact' ? (state = active) : (state = '')}"${path == '/contact' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
                         </ul>
                       </div>
                     </div>
