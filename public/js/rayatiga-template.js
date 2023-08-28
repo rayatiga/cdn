@@ -5,19 +5,18 @@ if (nav) {
   let path = window.location.pathname
   nav.outerHTML = `<nav class="navbar navbar-expand-lg bg-body border-bottom fixed-top">
                     <div class="container py-2">
-                      <a class="navbar-brand fw-bold" href="/">Rayatiga</a>
+                      <a class="navbar-brand fw-bold" href="/landing">Rayatiga Cloud</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
-                          <li class="nav-item"><a class="nav-link${path == '/' ? (state = active) : (state = '')}"${path == '/' ? (state = aria) : (state = '')} href="/">Home</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/about' ? (state = active) : (state = '')}"${path == '/about' ? (state = aria) : (state = '')} href="/about.html">About</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/career' ? (state = active) : (state = '')}"${path == '/career' ? (state = aria) : (state = '')} href="/career.html">Career</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/service' ? (state = active) : (state = '')}"${path == '/service' ? (state = aria) : (state = '')} href="/service.html">Service</a></li>
-                          <li class="nav-item"><a class="nav-link${path == '/project' ? (state = active) : (state = '')}"${path == '/project' ? (state = aria) : (state = '')} href="/project.html">Project</a></li>
-                          <li class="nav-item d-lg-none"><a class="nav-link${path == '/contact' ? (state = active) : (state = '')}"${path == '/contact' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
-                          <li class="nav-item d-none d-lg-block"><a class="btn btn-dark border ms-2${path == '/contact' ? (state = active) : (state = '')}"${path == '/contact' ? (state = aria) : (state = '')} href="/contact.html">Contact</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing' ? (state = active) : (state = '')}"${path == '/landing' ? (state = aria) : (state = '')} href="/landing/">Home</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing/about' ? (state = active) : (state = '')}"${path == '/landing/about' ? (state = aria) : (state = '')} href="/landing/about.html">About</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing/career' ? (state = active) : (state = '')}"${path == '/landing/career' ? (state = aria) : (state = '')} href="/landing/career.html">Career</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing/service' ? (state = active) : (state = '')}"${path == '/landing/service' ? (state = aria) : (state = '')} href="/landing/service.html">Service</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing/project' ? (state = active) : (state = '')}"${path == '/landing/project' ? (state = aria) : (state = '')} href="/landing/project.html">Project</a></li>
+                          <li class="nav-item"><a class="nav-link${path == '/landing/contact' ? (state = active) : (state = '')}"${path == '/landing/contact' ? (state = aria) : (state = '')} href="/landing/contact.html">Contact</a></li>
                         </ul>
                       </div>
                     </div>
@@ -27,7 +26,7 @@ let footer = document.getElementsByTagName('footer')[0]
 if (footer) {
   footer.outerHTML = `<footer>
                         <div class="d-flex justify-content-center align-items-center bg-body border-top h-73px">
-                          <p class="text-center m-0">Copyright <i class="bi bi-c-circle"></i> Rayatiga 2020-2023. All Rights Reserved.</p>
+                          <p class="text-center m-0">Copyright <i class="bi bi-c-circle"></i> Rayatiga Cloud 2020-2023. All Rights Reserved.</p>
                         </div>
                       </footer>`
 }
