@@ -1,14 +1,14 @@
 document.getElementById('url').innerHTML = window.location.origin + '/'
 let prefer = window.matchMedia('(prefers-color-scheme: dark)').matches
 const darkScheme = () => {
-  document.body.style.color = '#f8f9fa'
-  document.body.style.backgroundColor = '#181b1f'
-  document.getElementsByTagName('hr')[0].style.borderTopColor = '#f8f9fa'
+  document.body.style.color = '#ffffff'
+  document.body.style.backgroundColor = '#000000'
+  document.getElementsByTagName('hr')[0].style.borderTopColor = '#ffffff'
 }
 const lightScheme = () => {
-  document.body.style.color = '#181b1f'
-  document.body.style.backgroundColor = '#f8f9fa'
-  document.getElementsByTagName('hr')[0].style.borderTopColor = '#181b1f'
+  document.body.style.color = '#000000'
+  document.body.style.backgroundColor = '#ffffff'
+  document.getElementsByTagName('hr')[0].style.borderTopColor = '#000000'
 }
 if (prefer) {
   darkScheme()
